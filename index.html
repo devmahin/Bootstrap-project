@@ -4,12 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-light">
     
-    
+<div class="main">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mahin Howlader</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>              
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+ 
+          <header>
+            <div id="carouselExampleInterval" class="carousel slide"  data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active object-fit-cover w-100 h-100 " data-bs-interval="2000">
+                    <img src="images/slider-01.jpg" class="d-block w-100 img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/slider-02.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/slider-03.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/slider-04.jpg" class="d-block w-100" alt="...">
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </header>
+
+          <section class="container mt-5">
+              <div class="row">
+                <div class="col-lg-5">
+                  <img class="img-fluid rounded" src="https://media.istockphoto.com/id/1005624354/photo/beautiful-woman-presenting-a-copyspace.jpg?s=612x612&w=0&k=20&c=1AHgzZLYJCIi6IDrMMEEBDqt2UZvsTCZfnZIVTALIus=" alt="">
+                </div>
+
+                <div class="col-lg-7">
+                  <div class="row gy-2">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/cap.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/jeans.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/shoe.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/watch.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/half-pent.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="images/t-shirt.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Cap of Man's</p>
+                          <div class="d-flex justify-content-between">
+                            <span class="text-primary">$15.4</span>
+                            <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                          </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="col-4"></div>
+                    <div class="col-4"></div> -->
+                  </div>
+                </div>
+              </div>
+          </section>
+
+
+
+</div>
 
 
 
